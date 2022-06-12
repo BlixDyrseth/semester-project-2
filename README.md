@@ -1,6 +1,6 @@
 <img src="./img/scor-logo-black" />
 
-# Semester Project 2 – e-com site
+# Semester Project 2
 
 ---
 
@@ -13,26 +13,21 @@
 - [License](#license)
 - [Acknowledments](#acknowledgments)
 
----
-
 ## Description
+
+This was a school project. The brief was to build an e-commerce website with a theme of our own choosing. I choose to make a shoe shop site and include three main catergories: Womens shoes, Mens shoes and Kids shoes. The products were to be added in the cart using local storage.
+
+Building a checkout and payment system was not needed in this project.
+
+API made with Strapi headless CMS, pictures hosted on Cloudinary, deployed with Heroku.
 
 Elements this project had to include:
 
-- a login
-- cart
-- admin site
-- product site
-- featued products on homepage
-- Banner on homepage
-- Edit products
-- Add products
+- Build a frontend with home, product list, product detail and cart pages.
 
-I choose to make a shoe shop site and include three main catergories: Womens shoes, Mens shoes and Kids shoes.
+- Build admin pages to create, update and delete products.
 
-Checkout was not needed in this assignments.
-
-API made with Strapi headless CMS, pictures hosted on Cloudinary, deployed with Heroku.
+- The website must be responsive on all devices.
 
 ### Bugs and problems
 
@@ -41,17 +36,13 @@ API made with Strapi headless CMS, pictures hosted on Cloudinary, deployed with 
 - Menu glitches when site reloads
 - Searchbar searches all shoes and not spesific category
 - Can't remove cart items from cart
-- I don't uinderstand how to get files
-
----
+- I don't uinderstand how to upload files and get them from form
 
 ## Built With
 
 - HTML
 - [Sass](https://sass-lang.com/)
 - Javascript
-
----
 
 ## How to use
 
@@ -69,23 +60,17 @@ git clone git@github.com:BlixDyrseth/semester-project-2.git
 npm install
 ```
 
-3. Login info
+### User credentials for login
 
-```html
-Username: admin@admin.com Password: Pass1234
-```
-
----
+- Username: admin@admin.com
+- Email: admin@admin.com
+- Password: Pass1234
 
 ## Contact
 
 Contact me here:
 
----
-
 ## License
-
----
 
 ## Acknowledments
 
