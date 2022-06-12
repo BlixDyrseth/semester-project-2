@@ -1,8 +1,7 @@
-<img src="./img/scor-logo-black" />
+<img src="./img/scor-logo-black-01.png" />
 
 # Semester Project 2
 
----
 
 ### Tabel of Contents
 
