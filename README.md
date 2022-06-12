@@ -34,7 +34,7 @@ Checkout was not needed in this assignments.
 
 API made with Strapi headless CMS, pictures hosted on Cloudinary, deployed with Heroku.
 
-# Bugs and problems
+### Bugs and problems
 
 - Add products does not work
 - Edit product does not work
@@ -60,7 +60,7 @@ API made with Strapi headless CMS, pictures hosted on Cloudinary, deployed with 
 1. Clone the repo:
 
 ```html
-git clone git@github.com:BlixDyrseth/ingrid-semester-project-2.git
+git clone git@github.com:BlixDyrseth/semester-project-2.git
 ```
 
 2. Install the dependencies:
@@ -85,12 +85,8 @@ Contact me here:
 
 ## License
 
-Prictures from unsplash
-
-SCOR logo - mine
-
 ---
 
 ## Acknowledments
 
-???
+- Pictures from [Unsplash](https://unsplash.com/)
