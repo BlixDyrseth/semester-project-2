@@ -9,7 +9,6 @@
 - [Built With](#built-with)
 - [Installing](#installing)
 - [Contact](#contact)
-- [License](#license)
 - [Acknowledments](#acknowledgments)
 
 ## Description
@@ -68,9 +67,15 @@ npm install
 ## Contact
 
 Contact me here:
-
-## License
+[Linkedin](https://www.linkedin.com/in/ingrid-blix-dyrseth-096b2a241/) :envelope:
 
 ## Acknowledments
 
 - Pictures from [Unsplash](https://unsplash.com/)
+
+### References/tutorials
+
+- [How TO - Clickable Dropdown](https://www.w3schools.com/howto/howto_js_dropdown.asp)
+- [Storage.removeItem()](https://developer.mozilla.org/en-US/docs/Web/API/Storage/removeItem)
+- [JavaScript Search Bar by James Q Quick](https://www.youtube.com/watch?v=wxz5vJ1BWrc)
+- [How TO - Toggle Switch](https://www.w3schools.com/howto/howto_css_switch.asp)
