@@ -1,0 +1,36 @@
+input,
+textarea {
+  height: 2em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  box-shadow: inset 1px 1px 5px lightgray;
+  border: 1px solid;
+  border-color: gray;
+  font-family: "Lato", sans-serif;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.search {
+  width: 50%;
+}
+
+.search-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: $colour-main;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-bottom: 1em;
+}

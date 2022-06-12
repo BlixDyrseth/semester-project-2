@@ -1,0 +1,12 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  min-height: 200px;
+  padding: 2em;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  box-shadow: $shadow;
+}

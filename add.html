@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Patua+One&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Add products</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="header-big">
+            <div>
+              <a href="index.html">
+                <img class="logo" src="img/scor-logo-01.png" alt="Scor logo"/>
+              </a>
+            </div>
+          <div class="header-links">
+            <div>
+              <a class="nav-text"  href="index.html">Home</a>
+            </div>
+            <div>
+              <a class="nav-text" href="womens-products.html">Women</a>
+            </div>
+            <div>
+              <a class="nav-text" href="mens-products.html">Men</a>
+            </div>
+            <div>
+              <a class="nav-text" href="children-products.html">Kids</a>
+            </div>
+          </div>
+          <div class="header-icons">
+            <div class="profil-btn">
+              <a class="nav-text" href="#"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="cart-btn">
+              <a class="nav-text" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+          <div class="profil-dropdown">
+          </div>
+        </div>
+      
+      
+        <div class="header-small">
+          <div class="header-icons">
+            <div class="profil-btn-mobil">
+              <a class="nav-text" href="#"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="cart-btn">
+              <a class="nav-text" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+          </div>
+          <div class="profil-dropdown-mobil">
+          </div>
+          <div>
+            <a href="index.html">
+          <img class="logo" src="img/scor-logo-01.png" alt="Scor logo"/>
+            </a>
+        </div>
+          <button id="hamburgerBtn" class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-menu-item">
+            <a class="nav-text active" href="index.html">Home</a>
+          </div>
+          <div class="nav-menu-item">
+            <a class="nav-text" href="womens-products.html">Women</a>
+          </div>
+          <div class="nav-menu-item">
+            <a class="nav-text" href="mens-products.html">Men</a>
+          </div>
+          <div class="nav-menu-item">
+            <a class="nav-text" href="children-products.html">Kids</a>
+          </div>
+
+          <button id="closeBtn" class="close-menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        
+        </nav>
+    </header>
+    <main>
+      <div class="products-page">
+      <h1>Add products</h1>
+      <div class="form-wrapper">
+        <form id="addForm" class="admin-form" action="/api/upload" method="post">
+            <div class="message-container"></div>
+            <label> Title </label>
+            <input name="title" id="title" required />
+            <label> Price </label>
+            <input type="number" name="price" id="price" required/>
+            <label> Description </label>
+            <textarea type="textarea" name="description" id="description"></textarea>
+            <label>Type</label>
+            <select name="category" id="category">
+              <option value="women">
+                Women
+              </option>
+              <option value="men">
+                Men
+              </option>
+              <option value="children">
+                Children
+              </option>
+            </select>
+            <label> Featured </label>
+            <label class="featured-switch" for="featured">
+            <input type="checkbox" name="featured" id="featured" />
+            <span class="slider"></span>
+        </label>
+        <label> Upload picture </label>
+        <input type="file" name="product_img" id="product_img" required  />
+            <button class="button">Add</button>
+          </form>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <img class="logo-footer" src="img/scor-logo-black-01.png" alt="Scor logo"/>
+      </div>
+    </footer>
+    <script src="js/add.js" type="module"></script>
+</body>
+</html>

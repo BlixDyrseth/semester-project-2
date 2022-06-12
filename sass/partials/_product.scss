@@ -1,0 +1,34 @@
+.featured-container,
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-container {
+  max-width: 243px;
+  padding-left: 1em;
+}
+
+.thumbnails {
+  width: 243px;
+  height: 167px;
+}
+
+.info-line {
+  display: flex;
+  justify-content: space-between;
+  color: $colour-darkgrey;
+}
+
+@media only screen and (min-width: 900px) {
+  .product-container {
+    max-width: 300px;
+    padding-left: 1em;
+  }
+
+  .thumbnails {
+    width: 300px;
+    height: 190px;
+  }
+}
