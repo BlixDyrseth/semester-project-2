@@ -1,7 +1,8 @@
-<img src="./img/scor-logo-black-01.png" />
-
 # Semester Project 2
 
+<img src="./img/scor-logo-black-01.png" />
+
+A e-commerce website case study
 
 ### Tabel of Contents
 
